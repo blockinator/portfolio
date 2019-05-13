@@ -2135,31 +2135,11 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
-		/* Added next five lines*/
-		overflow: hidden;
-  		background-color: #333;
-  		position: fixed;
-  		top: 0;
- 		width: 100%;
 	}
 
 		ul li {
 			padding-left: 0.5em;
-			/* Added next one lines*/
-			float: left;
 		}
-/* Added next ten lines*/
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover:not(.active) {
-  background-color: #111;
-}
 
 		ul.alt {
 			list-style: none;
