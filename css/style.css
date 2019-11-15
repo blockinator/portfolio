@@ -114,7 +114,8 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+  color: #999999; }
 
 small {
   font-size: 80%; }
